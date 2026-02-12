@@ -21,7 +21,7 @@ create table Orders(
 
 );
 
-select Customers.FirstName, Products.Name ,Orders.CreatedAt
+select Customers.FirstName, Products.Name ,Orders.CreatedAt. fefefefefeffef
 from Orders, Customers, Products
 where Orders.CustomerId=Customers.Id
-and Orders.ProductId = Products.Id
+and Orders.ProductId = Products.Id 
